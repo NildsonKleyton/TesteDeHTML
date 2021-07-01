@@ -1,0 +1,69 @@
+html{
+    padding: 0% 5% ;
+    background: rgb(235, 251, 255);
+}
+body{
+    padding: 0;
+    margin:auto;   
+}
+
+table {
+    margin: 0;
+    padding: 0;
+    table-layout: fixed;
+}
+
+table th,
+table td{
+    padding: .6em;
+    text-align: center;
+}
+
+#title, .subtitle, .post_title{
+    color:rgb(53, 52, 6);
+    text-align: center;
+}
+
+.post_title{
+    font: size 14px;
+    font-style: italic;
+}
+
+.hard{
+    padding:0px; 
+    border: 0.5px solid rgba(0, 0, 0, 0.075);
+    border-radius: 50% 50% 0% 0%;
+}
+.post{
+    padding: 10px; 
+    border-left: solid rgba(0, 0, 0, 0.075);
+    border-right: solid rgba(0, 0, 0, 0.075);
+}
+
+.form{
+    padding: 10px; 
+    border: 0.5vh dashed rgba(0, 0, 0, 0.075);
+     
+}
+.margin{
+    margin-top: 0%;
+}
+.banner{
+    border-radius: 50%;
+    width: 100%;
+    height: 100%;;
+
+}
+.photo{
+    border-radius: 50%;
+    width: 90%;
+}
+
+.esquerda{
+    background-color: green;
+    float: left;
+}
+.direita{
+    background-color: blue;
+    float: right;
+}
